@@ -1,0 +1,22 @@
+Gallery:
+  post_content: $text
+  post_title: Gallery Title $integer
+  post_date: $date
+
+PostMeta:
+  post_id: $integer
+  meta_key: pal_user_id
+  meta_value: $integer
+
+User:
+  host_id:
+    type: Host
+  realname: John Doe $integer
+  username: johndoe$integer
+  url: dummyhost.com/johndoe$integer
+  credentials:
+    token: $string
+    token_secret: $string
+
+Host:
+  name: DummyHost$integer

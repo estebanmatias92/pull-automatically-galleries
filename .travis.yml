@@ -1,0 +1,19 @@
+language: php
+
+php:
+  - 5.4
+  - 5.5
+  - hhvm
+
+before_script:
+  - composer self-update
+  - composer install
+
+script: vendor/bin/phpunit
+
+after_script:
+  - coveralls
+  - coveralls -v
+
+notifications:
+  email: estebanmatias92@gmail.com

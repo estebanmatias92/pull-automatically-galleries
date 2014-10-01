@@ -1,0 +1,37 @@
+{
+  "name": "pull-automatically-galleries",
+  "version": "0.0.1",
+  "description": "Wordpress plugin to pull galleries automatically from web services.",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-open": "^0.2.3",
+    "grunt-phpunit": "~0.3.3",
+    "grunt-shell": "^1.1.1",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estebanmatias92/pull-automatically-galleries"
+  },
+  "keywords": [
+    "wordpress",
+    "image",
+    "galleries",
+    "posts",
+    "laravel"
+  ],
+  "author": "Matias Esteban <estebanmatias92@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebanmatias92/pull-automatically-galleries/issues"
+  },
+  "homepage": "https://github.com/estebanmatias92/pull-automatically-galleries"
+}
