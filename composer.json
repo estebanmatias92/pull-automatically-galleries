@@ -1,11 +1,12 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "estebanmatias92/pull-automatically-galleries",
+	"description": "Pulls image galleries from web services to Wordpress.",
+	"keywords": ["wordpress", "galleries", "auto","laravel"],
 	"license": "MIT",
 	"type": "wordpress-plugin",
 	"require": {
 		"php": ">=5.4.0",
+		"composer/installers": "~1.0",
 		"doctrine/dbal": "2.4.*",
 		"laravel/framework": "4.1.*",
 		"magniloquent/magniloquent": "dev-master",
