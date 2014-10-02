@@ -18,17 +18,6 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
-| Register The Hamcrest Asserts
-|--------------------------------------------------------------------------
-|
-| Provides more readable assertions for tests.
-|
-*/
-
-require __DIR__.'/../vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php';
-
-/*
-|--------------------------------------------------------------------------
 | Register AspectMock Kernel
 |--------------------------------------------------------------------------
 |
