@@ -1,9 +1,8 @@
 <?php
 
-use Magniloquent\Magniloquent\Magniloquent;
 use PullAutomaticallyGalleries\Database\Eloquent\Collection;
 
-class BaseModel extends Magniloquent
+class BaseModel extends Illuminate\Database\Eloquent\Model
 {
     protected function shouldReceive()
     {
